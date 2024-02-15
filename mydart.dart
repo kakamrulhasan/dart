@@ -43,4 +43,5 @@ void main() {
   // number.remove(3);
   // print(number);
   var myCityset = {'dhaka', ' barisal', ' coxs bazar'};
+  print(myCityset);
 }
