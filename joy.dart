@@ -3,5 +3,7 @@ void main(List<String> args) {
   String tipu = "i am sultan";
   print(tipu);
   String me = "so, what's  i do fucking man";
-  print("me: "+me);
+  print("me: " + me);
+  tipu = 'why you talk to me like this';
+  print(tipu + " ,at first say the word bangla!");
 }
