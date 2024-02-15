@@ -6,4 +6,6 @@ void main(List<String> args) {
   print("me: " + me);
   tipu = 'why you talk to me like this';
   print(tipu + " ,at first say the word bangla!");
+  me = 'do you know tipu sultan, you are kutta ka billa';
+  print("me: " + me);
 }
