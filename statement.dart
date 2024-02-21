@@ -1,11 +1,5 @@
 void main() {
-  // String myString = 'hello';
-  // print(myString);
-  // print(myString.contains('hello baby'));
-  // print("joy bangla");
-  // print("joy");
-  // print("dont't know");
-
+//if else statement
   // int marks = 9;
   // if (marks >= 80) {
   //   print("RESULT is A+");
@@ -18,6 +12,8 @@ void main() {
   // } else {
   //   print("Failed");
   // }
+
+  //switch case
   var marks = 71;
   switch (marks) {
     case 90:
@@ -32,4 +28,5 @@ void main() {
     default:
       print("result not found");
   }
+
 }
