@@ -10,13 +10,16 @@ void main(List<String> args) {
   // }
 
   //For .... IN LOOP OVER MAP(JSON ARRAY)
-  var productlist = [
-    {'name': 'soap', 'price': 100},
-    {'name': 'milk', 'price': 20}
-  ];
-  for (var oneproduct in productlist) {
-    var item =
-        "product name is ${oneproduct['name']} and price is ${oneproduct['price']}";
-    print(item);
-  }
+  // var productlist = [
+  //   {'name': 'soap', 'price': 100},
+  //   {'name': 'milk', 'price': 20}
+  // ];
+  // for (var oneproduct in productlist) {
+  //   var item =
+  //       "product name is ${oneproduct['name']} and price is ${oneproduct['price']}";
+  //   print(item);
+  // }
+
+  //DO WHILE LOOP
+  
 }
