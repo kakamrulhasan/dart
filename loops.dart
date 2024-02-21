@@ -29,9 +29,9 @@ void main(List<String> args) {
   */
 
   //DO WHILE LOOP
-  var i = 0;
-  do {
-    print(i);
-    i++;
-  } while (i < 100);
+  // var i = 0;
+  // do {          //exit control loop
+  //   print(i);
+  //   i++;
+  // } while (i < 100);
 }
