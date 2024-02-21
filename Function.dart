@@ -1,9 +1,8 @@
 void main(List<String> args) {
-  addTwoNumber();
+  addTwoNumber(2, 3);
+  addTwoNumber(3, 5);
 }
 
-addTwoNumber() {
-  var x = 2;
-  var y = 3;
+addTwoNumber(var x, var y) {
   print(x + y);
 }
