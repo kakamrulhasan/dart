@@ -3,7 +3,6 @@ void main(List<String> args) {
   //   print("dart: "+i.toString());
   // }
 
-
   //DART FOR.... IN LOOP OVER LIST
   // var Alphalist = ['A', 'B', 'C', 'D', 'E'];
   // for (var Alphabet in Alphalist) {
@@ -11,5 +10,13 @@ void main(List<String> args) {
   // }
 
   //For .... IN LOOP OVER MAP(JSON ARRAY)
-  
+  var productlist = [
+    {'name': 'soap', 'price': 100},
+    {'name': 'milk', 'price': 20}
+  ];
+  for (var oneproduct in productlist) {
+    var item =
+        "product name is ${oneproduct['name']} and price is ${oneproduct['price']}";
+    print(item);
+  }
 }
