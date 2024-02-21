@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  // for (var i = 0; i < 100; i= i+2) {
+  // for (var i = 0; i < 100; i= i+2) {    // we called for loop entry controll loop
   //   print("dart: "+i.toString());
   // }
 
@@ -20,6 +20,18 @@ void main(List<String> args) {
   //   print(item);
   // }
 
+  //WHILE LOOP
+  /*var i = 0;
+  while (i < 100) { // we called while loop exit control loop
+    print(i);
+    i++;      
+  }
+  */
+
   //DO WHILE LOOP
-  
+  var i = 0;
+  do {
+    print(i);
+    i++;
+  } while (i < 100);
 }
