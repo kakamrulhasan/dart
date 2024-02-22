@@ -1,3 +1,5 @@
+import 'dart:async';
+
 void main() {
 //if else statement
   // int marks = 9;
@@ -25,8 +27,10 @@ void main() {
     case 70:
       print("C");
       break;
+    case 60:
+      print("D");
+      break;
     default:
       print("result not found");
   }
-
 }
